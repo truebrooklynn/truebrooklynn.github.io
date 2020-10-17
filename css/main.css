@@ -13,15 +13,16 @@ body {
 /*-------------------------Header----------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
 .topheader_tex{
-  padding: 0.5rem 5rem 0.5rem;
-  background-color:#a7b1bb;
-  text-align: center;
+	padding: 0.5rem 5rem 0.5rem;
+	background-color:#a7b1bb;
+	text-align: center;
 }
 
 .topheader_tex p{
-  color: white;
-  font-size: 0.7rem;
-  font-family: 'Piazzolla', serif;
+	background-color:transparent;
+	color: white;
+	font-size: 0.7rem;
+	font-family: 'Piazzolla', serif;
 }
 
 .navheader {
@@ -188,6 +189,7 @@ body {
 	padding: 10px 10px 10px;
 	position: relative;    
 	border-radius: 8px;
+	background-color:transparent;
 	font-family: 'Piazzolla', serif;
 	font-size: 1.5rem;
 }
