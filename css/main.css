@@ -1,0 +1,256 @@
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-------------------------Fonts---------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*Family: Chilanka (True Brooklynn), Raleway (NAV), Piazolla (content*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Piazzolla:wght@1family=Chilanka&display=swap');
+
+body {
+    margin:0; 
+    background-color: #fee3da;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-------------------------Header----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+.topheader_tex{
+  padding: 1rem 5rem 1rem;
+  background-color:#a7b1bb;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Piazzolla', serif;
+}
+
+.navheader {
+  overflow: hidden;
+  background-color: white;
+  color: #333;
+}
+
+.navheader h1 a{
+  float: center;
+  color: black;
+  font-size: 3rem;
+  font-family: 'Chilanka', cursive;
+  text-transform:uppercase;
+}
+
+.navheader h1 a:hover{
+  text-decoration: none;
+}
+
+.navheader a {
+  padding: 2rem 2.2rem;
+  float: left;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+
+.subheader {
+  overflow: hidden;
+  float: left;
+}
+
+.subheader .subnavbtn { 
+  margin: 0; 
+  padding: 2rem 2.2rem;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #333;
+  font-size: 1.7rem;
+  font-family: inherit;
+  text-transform:uppercase;
+}
+
+.subheader:hover .subnavbtn {
+  text-decoration: underline;
+}
+
+.subheader-content-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.subheader-content{
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content h1{
+  font-weight: bold;
+}
+
+.subnav-content a {
+  font-size: 1.5rem;
+  float: left;
+  color: #333;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+   background-color: white;
+   text-decoration: none;
+   color: black;
+}
+
+.subheader:hover .subheader-content {
+  display: block;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-------------------------Banners----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+.topBanner{
+    width: 100vw;
+    height: 75vh; 
+    background-color: white;
+    margin-bottom: 25px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center; /*align image*/
+
+    position: relative; /* image to scale nicely on all screens*/
+}
+
+.topBanner img {
+  object-fit: cover;
+  width: 100vw;
+  height: 75vh;
+}
+
+.postBanner{
+	display: block;
+	text-align: center;
+	padding: 1.2rem 1.2rem 1.2rem;
+	position: relative;
+	background-color:;	
+}
+
+.postBanner img{
+	display: block;
+	object-fit: cover;
+	width: 30em;
+	height: 30em;
+}
+
+.postBanner h1{
+	display: block;
+	text-align: center
+	padding: 1rem 1rem 1rem;
+	position: relative;
+  color: #ff7c64;
+	font-family: 'Raleway', sans-serif;
+	font-size:3.5rem;
+}
+
+.postBanner h2{
+	display: block;
+	text-align: center
+	padding: 1rem 1rem 1rem;
+	position: relative;
+  color: #ff7c64
+	font-family: 'Raleway', sans-serif;
+	font-size:2.5rem;
+}
+
+.someContentBanner{
+	display: block;
+	margin-left: 0 0 0;
+	padding: 25px 50px 25px;
+
+	background-color:#a7b1bb;
+	/*background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	color: black;
+}
+
+.someContentBanner p{
+	display: block;
+	padding: 10px 10px 10px;
+	position: relative;    
+	border-radius: 8px;
+	font-family: 'Piazzolla', serif;
+	font-size: 1.5rem;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-------------------------Default----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+.content{
+	margin: auto 5 0px auto;
+	background-color: white;
+}
+
+p {
+	margin: auto 80px auto;
+	background-color: white;
+	color: black;
+	font-family: 'Piazzolla', serif;
+	font-size: 1.5rem;
+}
+
+img{
+	margin: auto 80px auto;
+	display: block;
+	text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-------------------------Footer---------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+.footer-site {
+    background-color: #a7b1bb;
+    border-top: 1px solid #d5d5d5;
+    padding: 25px 50px 25px;
+    color: #white;
+    position: relative;
+}
+
+.footer-site ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Piazzolla', serif;
+    text-transform:uppercase;
+    color: white;
+}
+
+.footer-site ul li{
+    display:block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Piazzolla', serif;
+    color: white;
+}
+
+.footer-link{
+    padding-left:0;
+}
+
+.footer-link a{
+    color:rgba(25,53,64,1);
+    font-size: 1rem;
+    font-family: 'Piazzolla', serif;
+    text-decoration: none;
+}
+
+.footer-link a:hover{
+    color: #333;
+    text-decoration: none;
+}
