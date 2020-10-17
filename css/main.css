@@ -13,11 +13,14 @@ body {
 /*-------------------------Header----------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
 .topheader_tex{
-  padding: 1rem 5rem 1rem;
+  padding: 0.5rem 5rem 0.5rem;
   background-color:#a7b1bb;
-  color: white;
   text-align: center;
-  font-size: 1.2rem;
+}
+
+.topheader_tex p{
+  color: white;
+  font-size: 0.7rem;
   font-family: 'Piazzolla', serif;
 }
 
@@ -30,7 +33,7 @@ body {
 .navheader h1 a{
   float: center;
   color: black;
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-family: 'Chilanka', cursive;
   text-transform:uppercase;
 }
@@ -60,7 +63,7 @@ body {
   outline: none;
   background-color: white;
   color: #333;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: inherit;
   text-transform:uppercase;
 }
@@ -89,11 +92,13 @@ body {
 }
 
 .subnav-content h1{
+  margin: auto;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .subnav-content a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   float: left;
   color: #333;
   text-decoration: none;
@@ -196,6 +201,8 @@ body {
 }
 
 p {
+	display: block;
+	max-width = 75vw;
 	margin: auto 80px auto;
 	background-color: white;
 	color: black;
