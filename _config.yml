@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+name: True Brooklynn
+markdown: kramdown #kramdown: free MIT-licensed Ruby library
+
+permalink: /personalstyle/:year/:month/:day/:title 
