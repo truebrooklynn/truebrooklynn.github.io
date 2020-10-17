@@ -58,12 +58,13 @@ body {
 }
 
 .subheader .subnavbtn { 
+  padding: 2rem 2.2rem;
   margin: 0;
   border: none;
   outline: none;
   background-color: white;
   color: #333;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: inherit;
   text-transform:uppercase;
 }
@@ -73,7 +74,8 @@ body {
 }
 
 .subheader-content-grid{
-  display: grid;
+  display: none;
+  padding: 1rem 3rem 1rem;
   grid-template-columns: auto auto;
   position: absolute;
   left: 0;
@@ -82,36 +84,27 @@ body {
   z-index: 1;
 }
 
-.subheader-content{
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: white;
-  width: 100%;
-  z-index: 1;
-}
-
-.subnav-content h1{
+.grid-item h1{
   margin: auto;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.subnav-content a {
+.grid-item a {
   font-size: 1.2rem;
   float: left;
   color: #333;
   text-decoration: none;
 }
 
-.subnav-content a:hover {
+.subheader-content-grid a:hover {
    background-color: white;
    text-decoration: none;
    color: black;
 }
 
-.subheader:hover .subheader-content {
-  display: block;
+.subheader:hover .subheader-content-grid {
+  display: grid;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------*/
