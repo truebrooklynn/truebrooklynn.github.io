@@ -84,7 +84,7 @@ body {
   z-index: 1;
 }
 
-grid-item h1{
+.grid-item h1{
   margin: auto;
   font-size: 0.8rem;
   font-weight: bold;
