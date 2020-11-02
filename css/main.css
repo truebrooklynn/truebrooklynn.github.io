@@ -84,6 +84,13 @@ body {
   z-index: 1;
 }
 
+.grid-item{
+}
+
+.grid-item:after{
+	display: grid;
+}
+
 .grid-item h1{
   margin: auto;
   font-size: 0.8rem;
