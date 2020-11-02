@@ -98,10 +98,11 @@ body {
 }
 
 .grid-item a {
-  font-size: 0.8rem;
-  float: left;
-  color: #333;
-  text-decoration: none;
+	padding: 1rem;
+	font-size: 0.8rem;
+	float: left;
+	color: #333;
+	text-decoration: none;
 }
 
 .grid-item a:after{
