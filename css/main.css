@@ -107,7 +107,7 @@ body {
 .grid-item sub-grid a {
 	padding: 1rem;
 	font-size: 0.8rem;
-	float: left;
+	justify-self: left;
 	color: #333;
 	text-decoration: none;
 }
