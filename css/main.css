@@ -13,16 +13,12 @@ body {
 /*-------------------------Header----------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
 .topheader_tex{
-	padding: 0.5rem 5rem 0.5rem;
-	background-color:#a7b1bb;
-	text-align: center;
-}
-
-.topheader_tex p{
-	background-color:transparent;
-	color: white;
-	font-size: 0.7rem;
-	font-family: 'Piazzolla', serif;
+  padding: 1rem 5rem 1rem;
+  background-color:#a7b1bb;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Piazzolla', serif;
 }
 
 .navheader {
@@ -32,9 +28,9 @@ body {
 }
 
 .navheader h1 a{
-  float: center;
+  text-align: center;
   color: black;
-  font-size: 1.7rem;
+  font-size: 1.57rem;
   font-family: 'Chilanka', cursive;
   text-transform:uppercase;
 }
@@ -44,7 +40,7 @@ body {
 }
 
 .navheader a {
-  padding: 2rem 2.2rem;
+  padding: 0 1em;
   float: left;
   color: #333;
   text-align: center;
@@ -58,13 +54,13 @@ body {
 }
 
 .subheader .subnavbtn { 
-  padding: 2rem 2.2rem;
-  margin: 0;
+  padding: 1rem;
+  margin: 0; 
   border: none;
   outline: none;
   background-color: white;
   color: #333;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-family: inherit;
   text-transform:uppercase;
 }
@@ -74,8 +70,7 @@ body {
 }
 
 .subheader-content-grid{
-  display: none;
-  padding: 1rem 3rem 1rem;
+  display: grid;
   grid-template-columns: auto auto;
   position: absolute;
   left: 0;
@@ -84,27 +79,40 @@ body {
   z-index: 1;
 }
 
-.grid-item h1{
-  margin: auto;
-  font-size: 1.2rem;
-  font-weight: bold;
+.subheader-content{
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
 }
 
-.grid-item a {
-  font-size: 1.2rem;
-  float: left;
-  color: #333;
-  text-decoration: none;
+.subnav-content h1{
+	font-weight: bold;
+	font-size: 0.8rem;
 }
 
-.subheader-content-grid a:hover {
+.subnav-content a{
+	padding: 1rem 1rem 0.5rem;
+	font-size: 0.8rem;
+	float: left;
+	color: #333;
+	text-decoration: none;
+}
+.subnav-content a:after{
+	content: "";
+	display: block;
+}
+
+.subnav-content a:hover {
    background-color: white;
    text-decoration: none;
    color: black;
 }
 
-.subheader:hover .subheader-content-grid {
-  display: grid;
+.subheader:hover .subheader-content {
+  display: block;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -114,7 +122,6 @@ body {
     width: 100vw;
     height: 75vh; 
     background-color: white;
-    margin-bottom: 25px;
   
     display: flex;
     justify-content: center;
@@ -166,8 +173,8 @@ body {
 
 .someContentBanner{
 	display: block;
-	margin-left: 0 0 0;
-	padding: 25px 50px 25px;
+	margin: 0;
+	padding: 3em;
 
 	background-color:#a7b1bb;
 	/*background-position: center center;
@@ -181,9 +188,9 @@ body {
 	padding: 10px 10px 10px;
 	position: relative;    
 	border-radius: 8px;
-	background-color:transparent;
 	font-family: 'Piazzolla', serif;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
+	line-height: 1.5;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -195,8 +202,6 @@ body {
 }
 
 p {
-	display: block;
-	max-width = 75vw;
 	margin: auto 80px auto;
 	background-color: white;
 	color: black;
