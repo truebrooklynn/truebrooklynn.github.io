@@ -54,7 +54,7 @@ body {
 
 .subheader {
   overflow: hidden;
-  float: left;
+  float: right;
 }
 
 .subheader .subnavbtn { 
@@ -84,13 +84,6 @@ body {
   z-index: 1;
 }
 
-.grid-item{
-}
-
-.grid-item:after{
-	display: grid;
-}
-
 .grid-item h1{
   margin: auto;
   font-size: 0.8rem;
@@ -98,16 +91,25 @@ body {
 }
 
 .grid-item a {
-	padding: 1rem;
+	padding: 0.5rem 1.5rem 0.5rem;
 	font-size: 0.8rem;
 	float: left;
 	color: #333;
 	text-decoration: none;
 }
 
-.grid-item a:after{
- 	content: "";
-	display: block;
+.grid-item sub-grid{
+	display: grid;
+	justify-content: left;
+	padding: 0.5rem 1.5rem 0.5rem;
+}
+
+.grid-item sub-grid a {
+	padding: 1rem;
+	font-size: 0.8rem;
+	float: left;
+	color: #333;
+	text-decoration: none;
 }
 
 .subheader-content-grid a:hover {
