@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Color Palette"
-date: 2020-10-17
+permalink: /personalstyle/Color_Palette/
 language: English
 creator: truebrooklynn
 ---
