@@ -13,12 +13,16 @@ body {
 /*-------------------------Header----------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
 .topheader_tex{
-  padding: 1rem 5rem 1rem;
-  background-color:#a7b1bb;
-  color: white;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: 'Piazzolla', serif;
+  padding: 0.5rem 5rem 0.5rem;
+	background-color:#a7b1bb;
+	text-align: center;
+}
+
+.topheader_tex p{
+	background-color:transparent;
+	color: white;
+	font-size: 0.7rem;
+	font-family: 'Piazzolla', serif;
 }
 
 .navheader {
@@ -70,7 +74,8 @@ body {
 }
 
 .subheader-content-grid{
-  display: grid;
+  display: none;
+  padding: 1rem 3rem 1rem;
   grid-template-columns: auto auto;
   position: absolute;
   left: 0;
@@ -79,40 +84,32 @@ body {
   z-index: 1;
 }
 
-.subheader-content{
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: white;
-  width: 100%;
-  z-index: 1;
+grid-item h1{
+  margin: auto;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
-.subnav-content h1{
-	font-weight: bold;
-	font-size: 0.8rem;
+.grid-item a {
+  font-size: 0.8rem;
+  float: left;
+  color: #333;
+  text-decoration: none;
 }
 
-.subnav-content a{
-	padding: 1rem 1rem 0.5rem;
-	font-size: 0.8rem;
-	float: left;
-	color: #333;
-	text-decoration: none;
-}
-.subnav-content a:after{
-	content: "";
+.grid-item a:after{
+ 	content: "";
 	display: block;
 }
 
-.subnav-content a:hover {
-   background-color: white;
-   text-decoration: none;
-   color: black;
+.subheader-content-grid a:hover {
+	background-color: white;
+	text-decoration: none;
+	color: black;
 }
 
-.subheader:hover .subheader-content {
-  display: block;
+.subheader:hover .subheader-content-grid {
+  display: grid;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -188,6 +185,7 @@ body {
 	padding: 10px 10px 10px;
 	position: relative;    
 	border-radius: 8px;
+	background-color: transparent;
 	font-family: 'Piazzolla', serif;
 	font-size: 1.4rem;
 	line-height: 1.5;
@@ -203,6 +201,8 @@ body {
 
 p {
 	margin: auto 80px auto;
+	display: block;
+	max-width = 75vw;
 	background-color: white;
 	color: black;
 	font-family: 'Piazzolla', serif;
