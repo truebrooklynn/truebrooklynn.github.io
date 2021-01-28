@@ -14,7 +14,7 @@ body {
 /*-----------------------------------------------------------------------------------------------------------------*/
 .topheader_tex{
   padding: 0.5rem 5rem 0.5rem;
-	background-color:#a7b1bb;
+	background-color: #ffd700;
 	text-align: center;
 }
 
@@ -183,7 +183,7 @@ body {
 	margin: 0;
 	padding: 3em;
 
-	background-color:#a7b1bb;
+	background-color:#ffffff;
 	/*background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;*/
@@ -197,7 +197,17 @@ body {
 	border-radius: 8px;
 	background-color: transparent;
 	font-family: 'Piazzolla', serif;
-	font-size: 1.4rem;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.someContentBanner p first-letter{
+	display: block;
+	padding: 10px 0px 0px;
+	position: relative;
+	background-color: transparent;
+	font-family: 'Piazzolla', serif;
+	font-size: 2rem;
 	line-height: 1.5;
 }
 
@@ -229,28 +239,37 @@ img{
 /*-------------------------Footer---------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
 .footer-site {
-    background-color: #a7b1bb;
-    border-top: 1px solid #d5d5d5;
+    background-color: #f0efef;
+    border-top: 1px solid #f0efef;
     padding: 25px 50px 25px;
     color: #white;
     position: relative;
 }
 
 .footer-site ul{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 0px;
-    list-style: none;
-    font-size: 1.2rem;
-    font-family: 'Piazzolla', serif;
-    text-transform:uppercase;
-    color: white;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 0px;
+	list-style: none;
+	font-size: 1.2rem;
+	font-family: 'Piazzolla', serif;
+	width: 100%;
+	z-index: 1;
 }
 
 .footer-site ul li{
     display:block;
     text-align: center;
     font-size: 1.2rem;
+    font-family: 'Piazzolla', serif;
+    color: white;
+}
+
+.footer-site ul li h1{
+    display:block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
     font-family: 'Piazzolla', serif;
     color: white;
 }
