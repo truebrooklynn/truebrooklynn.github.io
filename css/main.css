@@ -201,7 +201,7 @@ body {
 	line-height: 1.5;
 }
 
-.someContentBanner p first-letter{
+.first-letter{
 	display: block;
 	padding: 10px 0px 0px;
 	position: relative;
@@ -259,7 +259,7 @@ img{
 
 .footer-site ul li{
     display:block;
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
     font-family: 'Piazzolla', serif;
     color: white;
