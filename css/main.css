@@ -262,7 +262,7 @@ img{
     text-align: left;
     font-size: 1.2rem;
     font-family: 'Piazzolla', serif;
-    color: white;
+    color: black;
 }
 
 .footer-site ul li h1{
@@ -271,7 +271,6 @@ img{
     font-size: 1.2rem;
     font-weight: bold;
     font-family: 'Piazzolla', serif;
-    color: white;
 }
 
 .footer-link{
