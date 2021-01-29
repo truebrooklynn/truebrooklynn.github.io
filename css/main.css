@@ -158,13 +158,13 @@ body {
 	height: 30em;
 }
 
-.postBanner title{
+.postBanner .title{
 	display: inline;
 	padding: 5rem 1rem 0rem;
 	position: relative;
 }
 
-.postBanner title h1{
+.postBanner .title h1{
 	display: inline;
 	padding: 5rem 1px 0px;
 	position: relative;
@@ -173,7 +173,7 @@ body {
 	font-size: 3rem;
 }
 
-.postBanner title h2{
+.postBanner .title h2{
 	display: inline-block;
 	text-align: center;
 	padding: 1rem 1rem 1rem;
