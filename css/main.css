@@ -144,38 +144,43 @@ body {
 }
 
 .postBanner{
-	display: block;
+	display: grid;
+	grid-template-columns: auto auto;
 	text-align: center;
 	padding: 1.2rem 1.2rem 1.2rem;
 	position: relative;
-	background-color:;	
 }
 
 .postBanner img{
-	display: block;
+	display: inline;
 	object-fit: cover;
 	width: 30em;
 	height: 30em;
 }
 
-.postBanner h1{
-	display: block;
-	text-align: center
-	padding: 1rem 1rem 1rem;
+.postBanner title{
+	display: inline;
+	padding: 5rem 1rem 0rem;
 	position: relative;
-  color: #ff7c64;
-	font-family: 'Raleway', sans-serif;
-	font-size:3.5rem;
 }
 
-.postBanner h2{
-	display: block;
-	text-align: center
+.postBanner title h1{
+	display: inline;
+	padding: 5rem 1px 0px;
+	position: relative;
+	color: #ff7c64;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3rem;
+}
+
+.postBanner title h2{
+	display: inline-block;
+	text-align: center;
 	padding: 1rem 1rem 1rem;
 	position: relative;
-  color: #ff7c64
+  	color: #ff7c64;
 	font-family: 'Raleway', sans-serif;
-	font-size:2.5rem;
+	font-size: 1.5rem;
 }
 
 .someContentBanner{
@@ -202,7 +207,6 @@ body {
 }
 
 .first-letter{
-	display: block;
 	padding: 10px 0px 0px;
 	position: relative;
 	background-color: transparent;
@@ -267,7 +271,7 @@ img{
 
 .footer-site ul li h1{
     display:block;
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
     font-weight: bold;
     font-family: 'Piazzolla', serif;
