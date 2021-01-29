@@ -162,6 +162,7 @@ body {
 	display: inline;
 	padding: 5rem 1rem 0rem;
 	position: relative;
+	align-self: center;
 }
 
 .postBanner postTitle h1{
