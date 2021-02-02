@@ -156,6 +156,7 @@ body {
 	object-fit: cover;
 	width: 30em;
 	height: 15em;
+	margin: auto 10px 0px auto;
 }
 
 .postBanner .postTitle{
