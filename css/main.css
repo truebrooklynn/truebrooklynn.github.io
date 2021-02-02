@@ -146,7 +146,7 @@ body {
 .postBanner{
 	display: grid;
 	grid-template-columns: auto auto;
-	text-align: center;
+	text-align: left;
 	padding: 1.2rem 1.2rem 1.2rem;
 	position: relative;
 }
@@ -155,14 +155,13 @@ body {
 	display: inline;
 	object-fit: cover;
 	width: 30em;
-	height: 30em;
+	height: 15em;
 }
 
 .postBanner .postTitle{
 	display: inline;
 	padding: 5rem 1rem 0rem;
 	position: relative;
-	align-self: center;
 }
 
 .postBanner postTitle h1{
