@@ -162,6 +162,7 @@ body {
 .postBanner .postTitle{
 	display: inline;
 	padding: 5rem 1rem 0rem;
+	max-height: 15em;
 	position: relative;
 }
 
