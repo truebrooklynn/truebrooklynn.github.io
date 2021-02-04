@@ -2,7 +2,7 @@
 /*-------------------------Fonts---------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*Family: Chilanka (True Brooklynn), Raleway (NAV), Piazolla (content*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Piazzolla:wght@1family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Piazzolla:wght@200&family=Raleway:wght@300&display=swap');
 
 body {
     margin:0; 
@@ -222,13 +222,14 @@ body {
 .protectedPoetry{
 	display: block;
 	pointer-events:none;
+	padding: 2em;
 }
 
 .protectedPoetry p{
 	display: block;
-	font-family: 'Raleway', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
-	line-height: 1.5;
+	line-height: 0.5;
 }
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-------------------------Default----------------------------------------------------------------------------------*/
