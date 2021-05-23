@@ -35,7 +35,7 @@ body {
   text-align: center;
   color: black;
   font-size: 1.57rem;
-  font-family: 'Chilanka', cursive;
+  font-family: 'Piazzolla', serif;
   text-transform:uppercase;
 }
 
@@ -49,12 +49,12 @@ body {
   color: #333;
   text-align: center;
   text-decoration: none;
-  text-transform:uppercase;
 }
 
 .subheader {
   overflow: hidden;
   float: right;
+  font-family: 'Piazzolla', serif;
 }
 
 .subheader .subnavbtn { 
@@ -65,12 +65,12 @@ body {
   background-color: white;
   color: #333;
   font-size: 0.8rem;
-  font-family: inherit;
   text-transform:uppercase;
 }
 
 .subheader:hover .subnavbtn {
   text-decoration: underline;
+  background-color: #FFC2B0;
 }
 
 .subheader-content-grid{
