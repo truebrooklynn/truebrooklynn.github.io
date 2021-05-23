@@ -143,6 +143,27 @@ body {
   height: 75vh;
 }
 
+/*to display full image and squeeze*/
+.topBannerWide{
+    width: 100vw;
+    background-color: white;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center; /*align image*/
+
+    position: relative; /* image to scale nicely on all screens*/
+}
+
+.topBannerWide img {
+  object-fit: fill;
+  width: 100vw;
+  height: 60vh;
+  max-width: 100%;
+}
+
+/*to display post images*/
+
 .postBanner{
 	display: grid;
 	grid-template-columns: auto auto;
@@ -167,7 +188,7 @@ body {
 	position: relative;
 }
 
-.postBanner postTitle h1{
+.postBanner .postTitle h1{
 	display: inline;
 	padding: 5rem 1px 0px;
 	position: relative;
@@ -176,7 +197,7 @@ body {
 	font-size: 3rem;
 }
 
-.postBanner postTitle h2{
+.postBanner .postTitle h2{
 	display: inline-block;
 	text-align: center;
 	padding: 1rem 1rem 1rem;
