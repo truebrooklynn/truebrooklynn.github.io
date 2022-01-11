@@ -58,6 +58,7 @@ body {
 }
 
 .subheader .subnavbtn { 
+  font-family: 'Arial', sans-serif;
   padding: 1rem;
   margin: 0; 
   border: none;
