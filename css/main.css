@@ -138,6 +138,16 @@ body {
     position: relative; /* image to scale nicely on all screens*/
 }
 
+
+.topBanner h1{
+  display: inline;
+	padding: 5rem 1px 0px;
+	position: relative;
+	color: #333;
+	font-family: 'Piazzolla', sans-serif;
+	font-size: 3rem;
+}
+
 .topBanner img {
   object-fit: cover;
   width: 100vw;
