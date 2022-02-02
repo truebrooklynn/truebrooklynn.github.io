@@ -127,13 +127,9 @@ body {
 /*-------------------------Banners----------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
 .topBanner{
-    width: 100vw;
-    height: 75vh; 
+    margin: 7rem 0;
     background-color: white;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center; /*align image*/
+    text-align: center;
 
     position: relative; /* image to scale nicely on all screens*/
 }
