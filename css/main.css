@@ -176,6 +176,33 @@ body {
   max-width: 100%;
 }
 
+
+.featureLinkBanner{
+    width: 100vw;
+    height: 75vh; 
+    background-color: white;
+  
+    
+    justify-content: center;
+    align-items: center; /*align image*/
+    text-align: center;
+    position: relative; /* image to scale nicely on all screens*/
+}
+
+
+.featureLinkBanner h1{
+	padding: 5rem 1px ;
+	position: relative;
+	font-size: 3rem;
+}
+
+.featureLinkBanner h1 a{
+  text-decoration: none;
+  font-family: 'Raleway', serif;
+  color: #333;
+  background-color: rgba(255,255,255,0.5); 
+}
+
 /*to display post images*/
 
 .postBanner{
