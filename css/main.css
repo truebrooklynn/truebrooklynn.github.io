@@ -128,23 +128,28 @@ body {
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-------------------------Banners----------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
-.topBanner{
-    margin: 7rem 0;
+..topBanner{
+    width: 100vw;
+    height: 75vh; 
     background-color: white;
+  
+    
+    justify-content: center;
+    align-items: center; /*align image*/
     text-align: center;
-
     position: relative; /* image to scale nicely on all screens*/
 }
 
 
 .topBanner h1{
-  display: inline;
-	padding: 5rem 1px 0px;
+	padding: 5rem 1px ;
 	position: relative;
-	color: #333;
+  	background-color: #fbc1b0;
+	color: white;
 	font-family: 'Piazzolla', sans-serif;
 	font-size: 3rem;
 }
+
 
 .topBanner img {
   object-fit: cover;
