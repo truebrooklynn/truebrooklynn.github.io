@@ -334,8 +334,13 @@ body {
   height: auto;
 }
 
+.imageFeed .oneImage{
+    height: 400px;
+}
+
 .oneImage{
-  height: 400px;
+  max-height: 600px;
+  align-items: center;
 }
 
 .oneImageInline{
@@ -344,6 +349,38 @@ body {
   padding: 1rem;
   float: left;
   align-items: center
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-------------------------Text Containers----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+.diary {
+	padding: 2em;
+    margin: auto;
+}
+.diary .heading{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    display: table;
+    margin: auto;
+}
+.diary .title{
+    font-style: bold;
+    align-items: center;
+}
+
+.diary .author{
+    font-size: 1rem;
+}
+
+.diary .date{
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.diary .content p{
+    margin: 0;
+    padding: 1em;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------*/
