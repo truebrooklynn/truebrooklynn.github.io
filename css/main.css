@@ -55,7 +55,7 @@ body {
 
 .subheader {
   overflow: hidden;
-  float: right;
+  float: left;
   font-family: 'Piazzolla', serif;
 }
 
@@ -218,7 +218,6 @@ body {
 }
 
 .postBanner img{
-	display: inline;
 	object-fit: cover;
 	width: 30em;
 	height: 15em;
@@ -226,7 +225,8 @@ body {
 }
 
 .postBanner .postTitle{
-	display: inline;
+  display: grid;
+  grid-template-rows: 7em 7em;
 	padding: 5rem 1rem 0rem;
 	max-height: 15em;
 	position: relative;
@@ -234,22 +234,19 @@ body {
 
 
 .postBanner .postTitle h1{
-	display: inline;
-	padding: 5rem 1px 0px;
-	position: relative;
-	color: #000; /* #ff7c64; */
-	font-family: 'Raleway', sans-serif;
-	font-size: 3rem;
+  text-align: center;
+  position: relative;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
 }
 
 .postBanner .postTitle h2{
-	display: inline-block;
-	text-align: center;
-	padding: 1rem 1rem 1rem;
-	position: relative;
-  	color: #000;
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
 }
 
 .someContentBanner{
@@ -291,7 +288,7 @@ body {
 }
 
 .checkedList li::before{
-  content: '✓';
+  content: '\2713';
 }
 
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -419,10 +416,18 @@ body {
 	background-color: white;
 }
 
+ul {
+  font-family: 'Piazzolla', serif;
+}
+
+li {
+  font-family: 'Piazzolla', serif;
+}
+
 p {
 	margin: auto 80px auto;
 	display: block;
-	max-width = 75vw;
+	max-width: 75vw;
 	background-color: white;
 	color: black;
 	font-family: 'Piazzolla', serif;
@@ -451,7 +456,7 @@ img{
 
 .footer-site ul{
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto;
 	grid-gap: 0px;
 	list-style: none;
 	font-size: 1.2rem;
