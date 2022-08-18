@@ -436,7 +436,8 @@ p {
 
 img{
 	margin: auto 80px auto;
-	max-width: 80%;
+	padding: 10px 10px;
+	max-width: 75vw;
 	max-height: 100%;
 	display: block;
 	text-align: center;
