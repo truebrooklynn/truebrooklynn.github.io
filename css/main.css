@@ -210,26 +210,24 @@ body {
 
 .postBanner{
 	display: grid;
-	grid-template-columns: auto auto;
-	text-align: left;
-	padding: 1.2rem 1.2rem 1.2rem;
-	position: relative;
-	background-color: #ffffff;
+  grid-template-rows: auto auto;
+  text-align: left;
+  padding: 1.2rem 1.2rem 1.2rem;
+  position: relative;
 }
 
 .postBanner img{
 	object-fit: cover;
-	width: 30em;
-	height: 15em;
-	margin: auto 10px 0px auto;
+  width: 100vw;
+  height: 15em;
 }
 
 .postBanner .postTitle{
-  display: grid;
-  grid-template-rows: 7em 7em;
-	padding: 5rem 1rem 0rem;
-	max-height: 15em;
-	position: relative;
+  top: 85%;
+  left: 5%;
+  position: absolute;
+  width: 90%;
+  background-color: rgb(247, 192, 176);
 }
 
 
@@ -238,7 +236,7 @@ body {
   position: relative;
   color: #000;
   font-family: 'Raleway', sans-serif;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .postBanner .postTitle h2{
@@ -250,20 +248,16 @@ body {
 }
 
 .someContentBanner{
-	display: block;
-	margin: 0;
-	padding: 0.5em 4em;
+  margin: auto;
+  display: block;
+  width: 90%;
 
 	background-color:#ffffff;
-	/*background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;*/
 	color: black;
 }
 
 .someContentBanner p{
 	display: block;
-	padding: 10px 10px 10px;
 	position: relative;    
 	background-color: transparent;
 	font-family: 'Piazzolla', serif;
@@ -280,6 +274,36 @@ body {
 	line-height: 1.5;
 }
 
+.dateBottomRight{
+  font-style: italic;
+  text-align: right;
+}
+
+.grid{
+  margin: 1em 0;
+  display: grid;
+  gap: 1em;
+}
+
+.gridColorPalette{
+  display: grid;
+  gap: 1em;
+  grid-template-columns: auto auto auto;
+}
+
+.gridColorPalette_Colors{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.gridColorPalette_Colors_Pair{
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 0;
+}
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-------------------------Pure Text Content Blocks----------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -294,6 +318,54 @@ body {
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-------------------------Pure Image Blocks----------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
+.overlay{
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  
+  color: black
+}
+
+.preview:hover .overlay{
+  opacity: 1;
+  background-color: rgb(247, 192, 176);
+}
+
+.preview:hover{
+  filter: brightness(99%);
+  background-color: rgb(247, 192, 176);
+}
+
+.imageFeed1x3{
+  display: flex;
+}
+
+.imageFeed1x3 .oneImage{
+  display: flex;
+  flex-grow: initial;
+}
+
+.imageFeed1x3 p{
+  text-align: center;
+}
+
+.imageText1x2{
+  display: flex;
+}
+
+.imageText1x2 .imageBox{
+  display: flex;
+  flex-grow: initial;
+  width: 50%
+}
+
+.imageText1x2 .textBox{
+  margin: auto;
+  width: 50%;
+}
 
 .imageFeed{
   margin: 1rem;
@@ -334,7 +406,6 @@ body {
 }
 
 .oneImage{
-  max-height: 600px;
   align-items: center;
   overflow: hidden;
 }
@@ -350,6 +421,13 @@ body {
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-------------------------Text Containers----------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
+.summaryReadMore{
+  text-align: center
+}
+.detailsContentGrey{
+  padding: 10px 10px 10px;
+  background-color: #f0efef;
+}
 .diary {
 	padding: 2em;
     margin: auto;
@@ -425,9 +503,9 @@ li {
 }
 
 p {
-	margin: auto 80px auto;
+	/* margin: auto 80px auto;
 	display: block;
-	max-width: 75vw;
+	max-width: 75vw; */
 	background-color: white;
 	color: black;
 	font-family: 'Piazzolla', serif;
@@ -435,9 +513,7 @@ p {
 }
 
 img{
-	margin: auto 80px auto;
-	padding: 10px 10px;
-	max-width: 75vw;
+	max-width: 100%;
 	max-height: 100%;
 	display: block;
 	text-align: center;
