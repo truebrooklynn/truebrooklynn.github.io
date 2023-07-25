@@ -155,6 +155,22 @@ body {
   height: 75vh;
 }
 
+.topBannerWhite{
+  background-color: white;
+  box-shadow: 0.5rem 0.5rem 1rem #fbc1b0;
+  text-align: center;
+  position: relative;
+  margin: 2em 0;
+}
+
+.topBannerWhite h1{
+padding: 5rem 1px ;
+background-color: white;
+color: rgb(247, 192, 176);
+font-family: 'Piazzolla', sans-serif;
+font-size: 3rem;
+}
+
 /*to display full image and squeeze*/
 .topBannerWide{
     width: 100vw;
@@ -304,6 +320,57 @@ body {
   grid-template-rows: auto auto;
   gap: 0;
 }
+
+.grid1x2{
+  display: grid;
+  gap: 1em;
+  grid-template-columns: auto auto;
+}
+
+/*Home Page Grid*/
+.grid2x4{
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  border: solid;
+  border-width: 0.5rem;
+  border-color: rgb(247, 192, 176);
+  background-color: rgb(247, 192, 176);
+}
+
+.itemImgText{
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto auto;
+  padding: 1em;
+  justify-content: center;
+}
+
+.itemImgText .img{
+  max-width:100%;
+  max-height:100%;
+}
+  
+.gridItemLeft{
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+}
+
+.gridItemRight{
+  display: flex;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: white;
+  justify-content: center;
+}
+
+.caption{
+  text-align: center;
+}
+
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-------------------------Pure Text Content Blocks----------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -315,9 +382,18 @@ body {
   content: '\2713';
 }
 
+.textBox{
+  padding: 2em;
+  margin: auto;
+}
+
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-------------------------Pure Image Blocks----------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------*/
+.preview{
+  min-height: 30em;
+  background-color: #f0efef;
+}
 .overlay{
   opacity: 0;
   top: 50%;
@@ -325,18 +401,26 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   font-size: 2em;
-  
-  color: black
+  /* width: 90%; */
+  /* height: 80%; */
+  /* color: rgba(0, 0, 0, 0.16); */
+  /* text-align: right; */
+}
+
+.overlay a{
+  color: white;
 }
 
 .preview:hover .overlay{
   opacity: 1;
-  background-color: rgb(247, 192, 176);
+  background-color: rgba(0,0,0,0.16);
+  color: white;
 }
 
 .preview:hover{
+  /* opacity: 1; */
   filter: brightness(99%);
-  background-color: rgb(247, 192, 176);
+  /* background-color: rgb(247, 192, 176); */
 }
 
 .imageFeed1x3{
@@ -349,6 +433,19 @@ body {
 }
 
 .imageFeed1x3 p{
+  text-align: center;
+}
+
+.imageFeed1x3_black{
+  display: flex;
+}
+
+.imageFeed1x3_black .oneImage{
+  display: flex;
+  flex-grow: initial;
+}
+
+.imageFeed1x3_black p{
   text-align: center;
 }
 
@@ -408,6 +505,7 @@ body {
 .oneImage{
   align-items: center;
   overflow: hidden;
+  margin: auto;
 }
 
 .oneImageInline{
@@ -494,6 +592,10 @@ body {
 	background-color: white;
 }
 
+h1{
+  font-family: 'Piazzolla', serif;
+}
+
 ul {
   font-family: 'Piazzolla', serif;
 }
@@ -518,6 +620,16 @@ img{
 	display: block;
 	text-align: center;
 	width: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color:rgb(247, 192, 176);
+  font-weight: bold;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------*/
