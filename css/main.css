@@ -224,6 +224,22 @@ font-size: 3rem;
 
 /*to display post images*/
 
+.plainPostBanner{
+  display: grid;
+  grid-template-rows: auto auto;
+  text-align: left;
+  padding: 0rem 0rem 1.2rem;
+  position: relative;
+  background-color: rgb(247, 192, 176);
+}
+
+.plainPostBanner .postTitle{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+}
+
 .postBanner{
 	display: grid;
   grid-template-rows: auto auto;
