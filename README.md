@@ -1,2 +1,2 @@
-# truebrooklynn.github.io
-My website
+# TrueBrooklynn.github.io
+My personal website.
