@@ -1,45 +1,40 @@
 ---
 layout: default
-title: Dreaming Up New Styles
+title: The Drawing Room
 ---
 <div class = "topBanner">
-  <h1>
-    Dreaming Up New Styles
-  </h1>   
+	<h1>The Drawing Room</h1>
 </div>
 
 <div class="someContentBanner">
-	<p>
-		When my creative juices are flowing, I like to dream up new ideas. Here, I will share some of my sketches.
-  </p>
+	<p> When my creative energy is flowing, I like to spend time creating art and dreaming up new styles. 
+	Below are some of my favorite works from over the years.
+ 	</p>
 </div>
 
-<div class = "imageFeed">  
-  <div class = "oneImage">
-    <h1>
-      20s
-    </h1> 
-    <img src="https://truebrooklynn.github.io/sketchpad/images/20s.png" alt="20s">
+<div id="galleryFilters">
+	<button class="filterButton active" onclick="filterSelection('none')"> Show all</button>
+	<button class="filterButton" onclick="filterSelection('digital')"> Digital Art</button>
+	<button class="filterButton" onclick="filterSelection('traditional')"> Traditional Art</button>
   </div>
-  
-  <div class = "oneImage">
-    <h1>
-      Arriving at the Party
-    </h1> 
-    <img src="https://truebrooklynn.github.io/sketchpad/images/Arriving%20at%20the%20Party.png" alt="Arriving at the Party">
-  </div>
-  
-  <div class = "oneImage">
-    <h1>
-      Coats in Winter 1
-    </h1> 
-    <img src="https://truebrooklynn.github.io/sketchpad/images/20171.jpg" alt="Wearing different color and shaped coats">
-  </div>
-  
-  <div class = "oneImage">
-    <h1>
-      Dresses, Different Temperatures
-    </h1> 
-    <img src="https://truebrooklynn.github.io/sketchpad/images/20172.jpg" alt="Wearing summer, fall, winter dresses">
+
+<div id = "galleryRoot" class = "imageFeed8x3">
+	<div class = "oneImage">
+		<img src="https://truebrooklynn.github.io/sketchpad/images/twobreadsfourplates.PNG" alt="Two Breads and Four Plates">
+	</div>
+	<div class = "oneImage">
+		<img src="https://drive.google.com/thumbnail?id=1bmWukOlxLxACTOtnL_VEGs_mSuKV91Dh&sz=w1000" alt="Two Breads and Four Plates">
+	</div>
+</div>
+<!-- load images -->
+<script src="script.js"></script>
+
+
+<div class="someContentBanner">
+  <div class="dateBottomRight">
+    <p> 
+      Last updated: August 2024
+    </p>
+    </div>
   </div>
 </div>
