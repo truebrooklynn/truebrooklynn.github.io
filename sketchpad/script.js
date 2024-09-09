@@ -191,6 +191,14 @@ const artPortfolioImages = [
     tagCategory: 'portrait',
     tagSubjectMain: 'person'
   },
+  {
+      link: 'https://drive.google.com/thumbnail?id=1YwbLgDjvlhN6B11VvfoO61Zc07wO7sdm&sz=w1000',
+      title: 'Making a Wish',
+      description: 'Portrait of a woman blowing dandelion seeds',
+      tagMedium: 'traditional',
+      tagCategory: 'portrait',
+      tagSubjectMain: 'person'
+    }
 ];
 
 const root = document.getElementById('galleryRoot');
