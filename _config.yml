@@ -1,2 +1,4 @@
 name: True Brooklynn
 markdown: kramdown #kramdown: free MIT-licensed Ruby library
+plugins:
+  - jekyll-feed
